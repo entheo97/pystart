@@ -1,6 +1,9 @@
 # pystart
 
-A bash scaffolding script that automates Python project setup from the command line.
+Automates new Python project setup with a single command. On execution pystart creates 
+the project directory, initializes a Git repository, writes a standard Python .gitignore, 
+sets up a virtual environment via venv, and stubs out README.md and a project-named 
+Python file with #!/usr/bin/env python3 prewritten.
 
 ## What it does
 
