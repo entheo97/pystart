@@ -34,7 +34,9 @@ python3 -m venv .venv
 
 # 5. Create project files
 echo "# $PROJECT_NAME" > README.md
-touch "$PROJECT_NAME.py"
+cat <<EOF >  "$PROJECT_NAME.py"
+#!/usr/bin/env python3
+EOF
 chmod +x "$PROJECT_NAME.py"
 
 cat <<EOF > requirements.txt
