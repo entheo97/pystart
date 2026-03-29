@@ -45,3 +45,7 @@ cd <project-name> && source .venv/bin/activate
 - Python 3
 - Git
 - bash
+
+## Compatibility
+
+Tested on Ubuntu 24. Should work on other Linux distros and macOS with minimal adjustment.
