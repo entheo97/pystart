@@ -21,11 +21,12 @@ It also initializes a Git repository and creates a virtual environment automatic
 
 ## Installation
 
-Clone the repo and create a symlink to your local bin:
+Clone the repo and create a symlink to your local bin.
+Replace `/path/to/pystart/` with wherever you cloned the repo:
 ```bash
 git clone git@github.com:entheo97/pystart.git
-ln -s ~/scripts/pystart/pystart.sh ~/.local/bin/pystart
-chmod +x ~/scripts/pystart/pystart.sh
+ln -s /path/to/pystart/pystart.sh ~/.local/bin/pystart
+chmod +x /path/to/pystart/pystart.sh
 ```
 
 ## Usage
