@@ -41,6 +41,11 @@ Then follow the prompt:
 cd <project-name> && source .venv/bin/activate
 ```
 
+To deactivate the virtual environment when done:
+```bash
+deactivate
+```
+
 ## Dependencies
 
 - Python 3
