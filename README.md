@@ -46,6 +46,11 @@ To deactivate the virtual environment when done:
 deactivate
 ```
 
+To reactivate the virtual environment when returning to the project:
+```bash
+source .venv/bin/activate
+```
+
 ## Dependencies
 
 - Python 3
