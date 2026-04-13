@@ -8,14 +8,14 @@ fi
 
 PROJECT_NAME=$1
 
-# 1. Create and enter the project directory
+# Create and enter the project directory
 mkdir -p "$PROJECT_NAME"
 cd "$PROJECT_NAME" || exit
 
-# 2. Initialize Git
+# Initialize Git
 git init
 
-# 3. Create a standard .gitignore for Python
+# Create a standard .gitignore for Python
 cat <<EOF > .gitignore
 __pycache__/
 *.py[cod]
@@ -29,10 +29,10 @@ dist/
 .env
 EOF
 
-# 4. Create the virtual environment
+# Create the virtual environment
 python3 -m venv .venv
 
-# 5. Create project files
+# Create project files
 echo "# $PROJECT_NAME" > README.md
 cat <<EOF >  "$PROJECT_NAME.py"
 #!/usr/bin/env python3
@@ -44,7 +44,7 @@ cat <<EOF > requirements.txt
 # pip install -r requirements.txt
 EOF
 
-# 6. Final Status Report
+# Final Status Report
 echo "----------------------------------------"
 echo "Project '$PROJECT_NAME' initialized."
 echo "Python Version: $(./.venv/bin/python --version)"

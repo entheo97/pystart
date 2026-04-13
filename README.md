@@ -2,8 +2,8 @@
 
 Automates new Python project setup with a single command. On execution pystart creates 
 the project directory, initializes a Git repository, writes a standard Python .gitignore, 
-sets up a virtual environment via venv, and stubs out README.md and a project-named 
-Python file with #!/usr/bin/env python3 prewritten.
+sets up a virtual environment via venv and stubs out requirements.txt, README.md and a
+project-named Python file with #!/usr/bin/env python3 prewritten.
 
 ## What it does
 
@@ -13,11 +13,12 @@ project-name/
 ├── project-name.py
 ├── requirements.txt
 ├── README.md
+├── .git
 ├── .gitignore
 └── .venv/
 ```
 
-It also initializes a Git repository and creates a virtual environment automatically.
+In addition it  initializes a Git repository and creates a virtual environment automatically.
 
 ## Installation
 
